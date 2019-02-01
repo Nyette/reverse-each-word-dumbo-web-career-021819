@@ -13,8 +13,7 @@ def reverse_each_word(sentence)
     reversed_word = word.reverse
     array_reversed_words << reversed_word
   end
-  new_sentence = array_reversed_words.join(" ")
-  return new_sentence
+  array_reversed_words.join(" ")
 end
 
 
